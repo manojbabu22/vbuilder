@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vetri Builders</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+ 
+        header{
+            background-color: #040837;
+            padding: 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+           
+        }
+ 
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+           
+        }
+ 
+       .nav-links a{
+        color: white;
+        text-decoration: none;
+       }
+ 
+ 
+       .nav-links{
+        list-style: none;
+        display: flex;
+        gap: 30px;
+       }
+ 
+       nav a{
+        color: white;
+        text-decoration: none;
+       }
+
+       nav a:hover{
+        color: #ffb84d;
+       }
+ 
+       .btn{
+        background-color: orange;
+        padding: 10px;
+        border-radius: 5px;
+       }
+
+       .btn:hover {
+        color: black;
+        background-color: #ffb84d;
+       }
+
+       
+ 
+       .banner{
+        background: url(/images/banner.png) no-repeat center center;
+        background-size: cover;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        /* justify-content: center; */
+        align-items: center;
+        text-align: center;
+       }
+
+       
+      .bannercontent h1,p{
+        color: white;
+       }
+ 
+       .btnn{
+        background-color: orange;
+        padding:10px;
+        margin-top: 10px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: black;
+        transition: 0.3s;
+
+       
+       }
+
+       .btnn:hover {
+
+        background-color: #ffb84d;
+       }
+
+
+       .logoimg{
+        /* width: 50px; */
+        width: 10%;
+       }
+
+       
+       .circlesection{
+        background-image: url(/images/Rectangleback.png);
+        height: 45vh;
+        padding-top: 30px;
+        text-align: center;
+       
+       }
+
+       .bannercontent span {
+        color: #ffcc00;
+       }
+ 
+ 
+       .circle{
+        width: 100%;
+       }
+       .head{
+        color: black;
+        margin-bottom: 25px;
+       }
+       .head span{
+        color: #ffcc00;
+       }
+       .box1{
+        width: 200px;
+        height: 200px;
+        background-color: #040837;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        /* display: inline-block; */
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        font-size: 13px;
+        transition: 0.3s;
+       }
+       .circlecontainer{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        color: white;
+        
+       }
+       .box1 img {
+        width: 100px;
+        height: 100px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        
+       }
+
+       .box1:hover {
+        background: #ffcc00;      
+        color: black;  
+      }
+
+    
+
+       .whyus p {
+        color: #333;
+        margin-left: 200px;
+        margin-right: 200px;
+        font-size: 19px;
+        line-height: 1.8;
+
+
+       }
+
+       .whyus {
+        text-align: center;
+        height: 225px;
+        line-height: 2;
+        margin-top: 25px;
+
+       }
+
+       .whyus span{
+        color: #ffcc00;
+       }
+
+       .services {
+        background-color: rgb(246, 246, 191);
+        width: 100%;
+        height: auto;
+        padding: 50px 0;
+        color: black;
+        display: flex;
+       }
+
+       .servicescontainer {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 30px;
+        gap: 10px;
+        
+        
+       }
+       
+       .servicesinside {
+        display: flex;
+        align-items: center;
+        /* padding:20px; */
+       }
+
+       .servicesinside img {
+        width: 60px;
+        height: 60px;
+
+       }
+
+       .inside {
+        margin-left: 15px;
+       }
+
+       .inside h3{
+        color: #333;
+        font-size: 22px;
+       }
+
+       .inside p{
+        color: #555;
+        margin-top: 5px;
+        font-size: 14px;
+        line-height: 1.2;
+
+       }
+
+      
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- <a href="">Logo</a> -->
+<img src="/images/logo.png" class="logoimg">
+ 
+ 
+            <ul class="nav-links">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Plan&Pricing</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="/form.html"class="btn">Enquiry</a></li>
+            </ul>
+        </nav>
+    </header>
+ 
+ 
+ 
+    <section class="banner">
+ 
+        <div class="bannercontent">
+            <h1>Your <span>Dream</span> space, built to perfection.</h1>
+            <p>Ready to bring your project to life? Let's create something extraordinary together.</p>
+        <br>
+        <a href="#" class="btnn">Shop Now</a>
+        </div>
+ 
+    </section>
+ 
+    <section class="circlesection">
+    
+        <h1 class="head"><span>Nagercoil</span> Builders</h1>
+<div class="circlecontainer">
+ 
+<div class="box1">
+    <img src="/images/4 1.png" alt="Calendered Date">
+    <h3>Calendered Date</h3>
+</div>
+<div class="box1">
+    <img src="/images/14 (1) 1.png" alt="Quality Guaranteed">
+    <h3>Quality Guaranteed</h3>
+</div>
+<div class="box1">
+    <img src="/images/12 (1) 1.png" alt="Low Cost">
+    <h3>Low Cost</h3>
+</div>
+<div class="box1">
+    <img src="/images/19 1.png" alt="Top Rated">
+    <h3>Top Rated</h3>
+</div>
+<div class="box1">
+    <!-- <img src="/images/6 (1) 1.png" alt="Budget Friendly"> -->
+         <img src="/images/4 1.png" alt="Calendered Date">
+
+    <h3>Budget Friendly</h3>
+</div>
+ 
+</div>
+ 
+    </section>
+
+    <section class="whyus">
+        <h1>Why <span>Choose</span> Us</h1>
+        <p>At Nagercoil Builders, we deliver top-quality construction with precision, reliability, and excellence. Our expert team ensures on-time project completion, using premium materials and innovative techniques. With a commitment to safety and customer satisfaction, we bring your vision to life with professionalism and integrity. Choose us for a hassle-free building experience!</p>
+    </section>
+
+    <section class="services">
+
+    <div class="servicescontainer">
+
+        <div class="servicesinside">
+            <img src="/images/circleback_files/3d-cartoon-scene-depicting-variety-people-multitasking_23-2151294465-removebg-preview.png" alt="no1">
+            <div class="inside">
+            <h3>Experienced Team</h3>
+            <p>Our experienced team combines expertise, innovation, and dedication to deliver exceptional construction results tailored to your vision.</p>
+            </div>
+        </div>
+
+        <div class="servicesinside">
+            <img src="/images/circleback_files/19-removebg-preview.png" alt="no2">
+            <div class="inside">
+            <h3>Quality Construction</h3>
+            <p>Delivering excellence through superior craftsmanship, durable materials, and meticulous attention to detail in every project.</p>
+            </div>
+        </div>
+
+        <div class="servicesinside">
+            <img src="/images/circleback_files/3d-cartoon-scene-depicting-variety-people-multitasking.png" alt="no3">
+            <div class="inside">
+            <h3>Customizable Designs</h3>
+            <p>Experience the freedom of customizable designs tailored to match your unique vision and lifestyle.</p>
+            </div>
+        </div>
+
+        <div class="servicesinside">
+            <img src="/images/circleback_files/3d-render-construction-worker-family-with-child-white-background_1057-145926-removebg-preview.png" alt="no4">
+            <div class="inside">
+            <h3>Transparent Process</h3>
+            <p>Our transparent process ensures clear communication, no hidden costs, and full visibility at every stage, so you can trust us to deliver exactly what we promise.</p>
+            </div>
+        </div>
+
+        <div class="servicesinside">
+            <img src="/images/circleback_files/h34 (1).png" alt="no5">
+            <div class="inside">
+            <h3>Timely Completion</h3>
+            <p>We are committed to delivering every project on time, ensuring efficient execution without compromising on quality.</p>
+            </div>
+        </div>
+
+        <div class="servicesinside">
+            <img src="/images/circleback_files/2151755755.png" alt="no6">
+            <div class="inside">
+            <h3>In-house team of experts</h3>
+            <p>Our in-house team of experts ensures every project is executed with precision, expertise, and dedication.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="servicesimage">
+        <img src="/images/circleback_files/9 1.png" alt="serimg">
+    </div>
+ </section>
+
+  <section class="whyus">
+        <h1><span>Services</span> We Provide</h1>
+        <p>We offer a comprehensive range of construction services, including residential and commercial building, renovation, interior design, and project management. Our skilled team ensures high-quality craftsmanship, timely delivery, and cost-effective solutions. From concept to completion, we turn your ideas into reality with excellence and reliability.</p>
+    </section>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

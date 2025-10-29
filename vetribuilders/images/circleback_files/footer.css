@@ -1,0 +1,130 @@
+/* Footer section starts here */
+.footer {
+    background-color: #040837;
+    color: white;
+    padding: 40px 60px;
+    font-family: poppins, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    margin: auto;
+}
+
+/* Columns */
+.footer-column {
+    flex: 1;
+    margin-right: 40px;
+}
+
+/* Logo */
+.footer-logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+/* Heading Styling */
+.footer h3, h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer .highlight {
+    color: #f7c843;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+/* Paragraph & List */
+.footer p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 20px;
+    margin-bottom: 8px;
+    line-height: 1.9;
+    cursor: pointer;
+}
+
+/* Social Icons */
+.social-icons img {
+    margin-top: 20px;
+    width: 40px;
+    margin-right: 8px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Contact Section */
+.contact-info li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.icon{
+    border: 1px solid #FFCC00;
+    width: 28px;
+    height: 28px;
+    border-radius: 50px;
+    padding: 3px;
+    background-color: #FFCC00;
+    color: black;
+}
+/* Responsive */
+@media (max-width:1440px){
+    .footer{
+        width: 100%;
+        padding: 40px 20px;
+    }
+    .footer-container{
+        width: 100%;
+    }
+    .footer-column{
+        flex: 2;
+    }
+}
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-column {
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+    .footer p{
+        font-size: 17px;
+    }
+    ul li{
+        font-size: 17;
+    }
+    .contact-info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 407px) {
+   .info1{
+     width: 70%;
+   }
+}
